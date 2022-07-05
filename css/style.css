@@ -62,8 +62,9 @@ section{
 
 /*---------------- CSS Bannar area Start -----------*/
 #bannar-area{
-    background-image: url("../images/Frame\ 58.jpg");
+    background-image: url("../images/istock1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #bannar-area .myStyle{
     color: orange;
@@ -114,6 +115,12 @@ section{
     box-shadow: 0px 0px 8px grey;
     margin: 0 10px;
     border-radius: 8px;
+}
+
+#media-area{
+    background-image: url("../images/istock2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .counter-item{
     width: 33.33%;
