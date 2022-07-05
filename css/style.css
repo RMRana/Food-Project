@@ -74,6 +74,11 @@ section{
 /*---------------- CSS Bannar area End  -----------*/
 
 /*---------------- CSS About area Start -----------*/
+#about-area{
+    background-image: url("../images/slider-left-dec.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 #about-area h2{
     margin: 150px 0 50px 0;
 }
