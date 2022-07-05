@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open+Sans', sans-serif;
+}
+#bannar-area{
+    background-image: url(../images/Frame\ 58.jpg);
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    color: #575757;
+    padding-top: 105px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, orangered);
+    padding: 10px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 500;
+}
+p{
+    color: #a9a9a9;
+    line-height: 1.5;
+    padding: 25px 0;
+}
+
+.area-content{
+    display: flex;
+}
+.content{
+    width: 45%;
+    padding: 2%;
+    /* border: 2px solid red; */
+}
+.myStyle{
+    color: orange;
+}
+.content img{
+    width: 100%;
+    margin-left: 15px;
+}
