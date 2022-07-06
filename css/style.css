@@ -38,7 +38,8 @@ h3{
   }
 /*---------------- CSS Common -----------*/
 section{
-    margin-bottom: 64px;
+    padding: 64px 0;
+    
 }
 .container{
     width: 1280px;
@@ -75,11 +76,6 @@ section{
 /*---------------- CSS Bannar area End  -----------*/
 
 /*---------------- CSS About area Start -----------*/
-#about-area{
-    background-image: url("../images/slider-left-dec.png");
-    background-repeat: no-repeat;
-    background-position: right;
-}
 #about-area h2{
     margin: 150px 0 50px 0;
 }
@@ -90,6 +86,11 @@ section{
 /*---------------- CSS About area End -----------*/
 
 /*---------------- CSS Recipies area Start -----------*/
+#counter-area{
+    background-image: url("../images/istock2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .recipies-heading{
     text-align: center;
     width: 60%;
@@ -117,11 +118,7 @@ section{
     border-radius: 8px;
 }
 
-#media-area{
-    background-image: url("../images/istock2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .counter-item{
     width: 33.33%;
     padding: 48px 16px;
